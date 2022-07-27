@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.ExplosaoException"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Campo"/>
+</qualifiedTypeNameHistroy>
