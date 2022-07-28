@@ -60,8 +60,14 @@ public class Campo {
 	void minar() {
 		minado = true;
 	}
+	void setAberto(boolean aberto) {
+		this.aberto = aberto;
+	}
 	public boolean isAberto() {
 		return aberto;
+	}
+	public boolean isMinado() {
+		return minado;
 	}
 	public int getLinha() {
 		return linha;
