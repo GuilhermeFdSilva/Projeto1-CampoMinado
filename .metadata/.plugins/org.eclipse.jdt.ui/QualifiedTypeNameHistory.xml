@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Campo"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.junit.platform.commons.util.ToStringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.TabuleiroConsole"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -14,4 +10,12 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.ExplosaoException"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoObservador"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoEvento"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Campo"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 </qualifiedTypeNameHistroy>
