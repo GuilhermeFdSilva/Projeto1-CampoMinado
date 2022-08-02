@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TabuleiroTeste" project="campo-minado" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="br.com.cod3r.cm.modelo.TabuleiroTeste" time="0.0" displayname="TabuleiroTeste" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.TabuleiroTeste]">
-    <testcase name="testeMarcar" classname="br.com.cod3r.cm.modelo.TabuleiroTeste" time="0.0" displayname="testeMarcar()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.TabuleiroTeste]/[method:testeMarcar()]"/>
-  </testsuite>
-</testrun>

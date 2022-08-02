@@ -1,20 +1,4 @@
 INDEX VERSION 1.131+C:\Users\franc\OneDrive\Área de Trabalho\Projeto1-CampoMinado\Projeto1-CampoMinado\.metadata\.plugins\org.eclipse.jdt.core
-3222017250.index
-951645122.index
-3238273899.index
-2611059039.index
-3471545462.index
-3125952773.index
-1272074481.index
-2224444511.index
+2401321569.index
 1341219747.index
-3692390150.index
-3779201193.index
-1509799344.index
-3769272547.index
-1108601105.index
-2640197366.index
 1865797976.index
-1149366418.index
-3136644603.index
-427274628.index
