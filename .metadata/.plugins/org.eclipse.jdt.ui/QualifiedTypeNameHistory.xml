@@ -11,11 +11,23 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.ExplosaoException"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoObservador"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoEvento"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Campo"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.PainelTabuleiro"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Campo"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.BotaoCampo"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoObservador"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+    <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.ResultadoEvento"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoEvento"/>
+    <fullyQualifiedTypeName name="javax.swing.SwingUtilities"/>
 </qualifiedTypeNameHistroy>

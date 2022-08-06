@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class Tabuleiro implements CampoObservador {
-	private int linhas;
-	private int colunas;
-	private int minas;
+	private final int linhas;
+	private final int colunas;
+	private final int minas;
 	private final List<Campo> campos = new ArrayList<>();
-	private final List<Consumer<Boolean>> observadores = new ArrayList<>();
+	private final List<Consumer<ResultadoEvento>> observadores = new ArrayList<>();
 	public Tabuleiro(int linhas, int colunas, int minas) {
 		this.linhas = linhas;
 		this.colunas = colunas;
@@ -18,11 +18,11 @@ public class Tabuleiro implements CampoObservador {
 		associarVizinhos();
 		sortearMinas();
 	}
-	public void registrarObservador(Consumer<Boolean> observador) {
+	public void registrarObservador(Consumer<ResultadoEvento> observador) {
 		observadores.add(observador);
 	}
 	private void notificarObservadores(boolean resultado) {
-		observadores.stream().forEach(o -> o.accept(resultado));
+		observadores.stream().forEach(o -> o.accept(new ResultadoEvento(resultado)));
 	}
 	public void abrir(int linha, int coluna) {
 		campos.parallelStream()
@@ -31,7 +31,9 @@ public class Tabuleiro implements CampoObservador {
 		.ifPresent(c -> c.abrir());	
 	}
 	private void mostrarMinas() {
-		campos.stream().filter(c -> c.isMinado())
+		campos.stream()
+		.filter(c -> c.isMinado())
+		.filter(c -> !c.isMarcado())
 		.forEach(c -> c.setAberto(true));
 	}
 	public void alternarMarcacao(int linha, int coluna) {
@@ -78,5 +80,14 @@ public class Tabuleiro implements CampoObservador {
 		}else if(objetivoAlcancado()) {
 			notificarObservadores(true);
 		}
+	}
+	public int getLinhas() {
+		return linhas;
+	}
+	public int getColunas() {
+		return colunas;
+	}
+	public void paraCadaCampo(Consumer<Campo> funcao) {
+		campos.forEach(funcao);
 	}
 }
